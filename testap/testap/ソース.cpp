@@ -1,4 +1,4 @@
-//例題プログラ
+
 #include<stdio.h>
 void hyouzi(int hand, int myhand);
 int main(void) {
@@ -35,7 +35,7 @@ int main(void) {
 			printf("きみの勝ち\n");
 			break;
 		case(2):
-			printf("きみの負け\n");
+			printf("きみの負け。なんで負けたか明日までに考えといてくださいwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww\n");
 			break;
 		default:
 			break;
@@ -46,5 +46,5 @@ int main(void) {
 }
 
 void hyouzi(int hand, int myhand) {
-	printf("きみの手 %d　VS　パソコンの手%d\n", hand, myhand);
+	printf("きみの手 %d　VS　神の手%d\n", hand, myhand);
 }
