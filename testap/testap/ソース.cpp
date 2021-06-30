@@ -1,4 +1,4 @@
-//例題プログラ
+//例題プログラmu
 #include<stdio.h>
 void hyouzi(int hand, int myhand);
 int main(void) {
@@ -9,7 +9,10 @@ int main(void) {
 	{
 		scanf("%d", &myhand);
 
-		if (myhand == 3)break;
+		if (myhand == 3)
+			printf("press "3"");
+			scanf()
+			break;
 
 		
 		if (hand == 0 && myhand == 0)flag = 0;
