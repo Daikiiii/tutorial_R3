@@ -9,7 +9,9 @@ int main(void) {
 	{
 		scanf("%d", &myhand);
 
-		if (myhand == 3)break;
+		if (myhand == 3)｛
+			printf("やめるの？やめるの？");
+			｝
 
 		
 		if (hand == 0 && myhand == 0)flag = 0;
