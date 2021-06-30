@@ -4,7 +4,7 @@ void hyouzi(int hand, int myhand);
 int main(void) {
 	int i=1,hand,myhand,flag=0;
 	char s[10];
-	printf("じゃんけんgame:グーの時は0,チョキの時は1,パーの時は2を入力してね(やめるときは3)\n");
+	printf("じゃんけんゲーム:グーの時は0,チョキの時は1,パーの時は2を入力してね(やめるときは3)\n");
 	while (i<9999)
 	{
 		scanf("%d", &myhand);
