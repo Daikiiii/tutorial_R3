@@ -10,7 +10,7 @@ int main(void) {
 		scanf("%d", &myhand);
 
 		if (myhand == 3)
-			printf("press "3"");
+			printf("press");
 			scanf()
 			break;
 
